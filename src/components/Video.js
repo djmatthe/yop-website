@@ -12,11 +12,10 @@ class Video extends React.Component {
                     loop={true}
                     muted={true}
                     playsInline={true}
-                    poster="/black.jpg"
-                    style={{transform: "translate3d(0px, 0px, 0px)"}}>
+                    poster="/black.jpg">
                     <source src="/dennis_rodman.mp4" type="video/mp4"></source>
                 </video>
-                <a href="#gallery" title="Scroll Down" class="x-masthead-arrow">
+                <a href="#gallery" title="Scroll Down" className="x-masthead-arrow">
                     <img alt="Scroll Down" src="scroll-arrow.svg"></img>
                 </a>
             </div>
