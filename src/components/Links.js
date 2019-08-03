@@ -21,7 +21,7 @@ class Links extends React.Component {
                         <a data-track="apple-music" className="icon-applemusic appleinc" target="" href="//smarturl.it/ThePerfectLuvTape"></a>
                     </li>
                 </ul>
-                <i class="down"></i>
+                <i className="down"></i>
             </div>
         );
     }

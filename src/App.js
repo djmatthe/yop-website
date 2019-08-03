@@ -4,6 +4,7 @@ import Video from "./components/Video"
 import Links from "./components/Links"
 import Audio from "./components/Audio"
 import Gallery from "./components/Gallery"
+import Shop from "./components/Shop"
 
 class App extends React.Component {
   render() {
@@ -14,6 +15,7 @@ class App extends React.Component {
         <Links />
         {/* <Audio /> */}
         <Gallery />
+        <Shop />
       </div>
     );
   }
