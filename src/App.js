@@ -13,7 +13,7 @@ class App extends React.Component {
         <Titles />
         <Video />
         <Links />
-        {/* <Audio /> */}
+        <Audio />
         <Gallery />
         <Shop />
       </div>

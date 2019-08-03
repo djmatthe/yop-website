@@ -190,27 +190,49 @@ html {
   font-family: MaisonNeueExtended, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Droid Sans, Helvetica Neue;
   text-align: center;
   position: relative;
-  top: 1%;
-  padding-bottom: 2%;
+  top: 5%;
+  padding-bottom: 0;
   font-size: 6vh;
   color: white;
+  margin-bottom: 0;
+}
+
+.gal-sub-cont {
+  top: 10%;
+  width: 100%;
+  /* left: 4%; */
+  height: 5%;
+  margin: 0;
+  text-align: center;
+  position: relative;
+  padding-bottom: 2%
+}
+
+.gallery-subtitle {
+  /* float: left; */
+  display: inline-block;
+  font-size: 2vh;
+  color: white;
+  letter-spacing: 1vw;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+.poor {
+  color: red;
+
 }
 
 .ig-images {
-  /* margin: auto; */
   width: 20%;
-  /* border: 3px solid black; */
-  padding-left: 15%;
   padding-top: 0;
-  /* padding-bottom: 8vh; */
-  /* padding-inline-start: 5%; */
   left: 0;
+  padding-inline-start: 0px;
 }
 
-.ig-images img {
+.ig-images div img{
   width: 100%;
   max-width: 200px;
-  /* border-radius: 10% */
 }
 
 .shop-container {
@@ -239,12 +261,27 @@ html {
 }
 
 .scroll-down {
-  height: 300px;	
-  overflow: hidden;
-  position: relative;
- }
- .scroll-down .inner {
   position: absolute;
+  top: 35%;
+  width: 20%;
+  height: 60%;
+  padding-top: 0;
+  left: 40%;
+  overflow: hidden;
+}
+
+.slide span {
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(0deg, transparent, rgba(0, 0, 0, .70) 40%);
+  color: white;
+  max-width: 200px;
+}
+
+
+
+.scroll-down .inner {
+  position: relative;
   width: 100%;
   height: 100%;
   margin: 0;
@@ -255,28 +292,29 @@ html {
   -webkit-transform:translateY(-100%);	
   transform:translateY(-100%);
   /* Apply animation to this element */	
-  -moz-animation: scroll-down 15s linear infinite;
-  -webkit-animation: scroll-down 15s linear infinite;
-  animation: scroll-down 15s linear infinite;
- }
+  -moz-animation: scroll-down 40s linear infinite;
+  -webkit-animation: scroll-down 40s linear infinite;
+  animation: scroll-down 40s linear infinite;
+}
+
  /* Move it (define the animation) */
- @-moz-keyframes scroll-down {
-  0%   { -moz-transform: translateY(-100%); }
+@-moz-keyframes scroll-down {
+  0%   { -moz-transform: translateY(-420%); }
   100% { -moz-transform: translateY(100%); }
- }
- @-webkit-keyframes scroll-down {
-  0%   { -webkit-transform: translateY(-100%); }
+}
+@-webkit-keyframes scroll-down {
+  0%   { -webkit-transform: translateY(-420%); }
   100% { -webkit-transform: translateY(100%); }
- }
- @keyframes scroll-down {
+}
+@keyframes scroll-down {
   0%   { 
-  -moz-transform: translateY(-100%); /* Browser bug fix */
-  -webkit-transform: translateY(-100%); /* Browser bug fix */
-  transform: translateY(-100%); 		
+    -moz-transform: translateY(-420%); /* Browser bug fix */
+    -webkit-transform: translateY(-420%); /* Browser bug fix */
+    transform: translateY(-420%); 		
   }
   100% { 
-  -moz-transform: translateY(100%); /* Browser bug fix */
-  -webkit-transform: translateY(100%); /* Browser bug fix */
-  transform: translateY(100%); 
+    -moz-transform: translateY(100%); /* Browser bug fix */
+    -webkit-transform: translateY(100%); /* Browser bug fix */
+    transform: translateY(100%); 
   }
- }
+}
